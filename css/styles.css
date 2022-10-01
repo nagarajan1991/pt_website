@@ -1,0 +1,266 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat ', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+p {
+  color: #8f8f8f
+}
+
+/* Navabar section */
+
+.navbar {
+  padding-bottom:4.5em;
+
+}
+
+.navbar-brand {
+  font-family:"ubuntu",sans-serif;
+  font-size: 2.5em;
+  color: #f1a403
+}
+
+.navbar-brand:hover {
+  color: #fff!important; 
+}
+
+.nav-item {
+  padding:0 18px;
+}
+
+.nav-link {
+  font-size:1.2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+a:hover { color: #f1a403 !important; }
+
+
+a:hover {
+opacity: 2;
+
+}
+
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*  Headings */
+
+.big-heading {
+  font-family: 'Montserrat ', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15% ;
+  height:100vh;
+}
+
+.colored-section {
+  background-color: #1A1A2E;
+  color:#fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+/* Title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7% ;
+  text-align: left;
+}
+
+
+.title-image {
+  width: 35;
+  position: absolute;
+  right: 10%;
+}
+
+
+
+/* Services sections */
+
+#services .container-fluid {
+  padding: 3% 15% 3% ;
+}
+
+
+#services {
+  background-color: #fff;
+  position: relative;
+}
+
+.services-box {
+  padding: 3% 0%;
+}
+
+.services-title {
+  font-size: 2rem;
+}
+
+.icon {
+  color: #1A1A2E;
+  width:130px;
+}
+
+.icon:hover {
+  color: #f1a403;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* servicesdetail section */
+
+#servicesdetail {
+  background-color: #191919; 
+}
+
+#servicesdetail .container-fluid {
+  padding: 3% 15% 3% ;
+}
+
+#servicesdetail  .section-heading {
+  padding-bottom: 3%;
+}
+
+.sd-image {
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+.svc-text {
+  text-align: left;
+}
+
+
+.sd-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.sd-text:after {
+  content: '\A';
+  white-space: pre;
+}
+
+
+
+.techstack-img {
+  padding: 2% 2%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.creative-img {
+  padding: 2% 2%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+.discord-img {
+  padding: 2% 2%;
+  max-width: 250px;
+  max-height: 200px;
+}
+
+.techstack-img-invert {
+  padding: 2% 2%;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.carousel-text {
+  font-size: 1.5rem;
+}
+
+
+/* CTA Section */
+#cta {
+  font-size:1.2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+
+}
+
+#footer {
+  line-height: 2;
+}
+
+
+.cta-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+/* About us */
+
+#aboutus {
+  padding: 3% 10% 3% ;
+}
+
+.aboutus-image {
+  padding:5%;
+  width: 100%;
+}
+
+#aboutus body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: left;
+}
+
+.social-icon {
+  margin:20px 10px;
+}
+
+.customers-div {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around; 
+  padding: 30px;
+}
+
+.customers-icon {
+  width:15%;
+  height:15%;
+}
